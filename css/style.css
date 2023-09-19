@@ -1,0 +1,44 @@
+
+
+.date {
+    text-align:left;
+    margin-left: 100px;
+}
+div{
+    display: block;
+}
+
+.daybox {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 210px;
+    height: 64px;
+    margin-bottom: 28px;
+    margin-top: 12px;
+}
+
+.daybox:nth-child(1) {
+    height: 172px;
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    /* color: #c0c0c0; */
+    font-size: 1.0em;
+    line-height: 1.5em;
+    font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+    /* background-color: rgb(226, 211, 211); */
+    word-wrap: break-word;
+}
+.text_date{
+    font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #000000;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
