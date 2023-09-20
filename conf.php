@@ -29,7 +29,7 @@ $keyNameHaab = ["Pop",
                 "K'ayab'",
                 "Kumk'u",
                 "Wayeb'"];
-
+// Aztec Tonalpohualli day name
 $Aztec_name = [ "Cipactli – Crocodile",
                 "Ehēcatl – Wind", 
                 "Calli – House", 
@@ -51,3 +51,148 @@ $Aztec_name = [ "Cipactli – Crocodile",
                 "Quiahuitl – Rain",
                 "Xochitl – Flower"
             ];
+// Aztec Tonalpohualli day name Spirit
+$Spirit_name = [
+                    'Tonacatecuhtli',
+                    'Quetzalcoatl',
+                    'Tepeyollotl',
+                    'Huehuecoyotl',
+                    'Chalchihuitlicue',
+                    'Tecciztecatl',
+                    'Tlaloc',
+                    'Mayahuel',
+                    'Xiuhtecuhtli',
+                    'Mictlantecuhtli',
+                    'Xochipili',
+                    'Patecatl',
+                    'Tezcatlipoca',
+                    'Tlazolteotl',
+                    'Xipe Totec',
+                    'Itzpapalotl',
+                    'Xolotl',
+                    'Chalchihuihtotolin',
+                    'Tonatiuh',
+                    'Xochiquetzal'
+                ];
+
+/**Назви днів в трацені */
+$Name_Nahuatl = [
+                    'Ce',
+                    'Ome',
+                    'Yei',
+                    'Nahui',
+                    'Mahcuilli',
+                    'Chicuacen',
+                    'Chicome',
+                    'Chicuei',
+                    'Chicunahui',
+                    'Mahtlactli',
+                    'Mahtlactli-once',
+                    'Mahtlactli-omome',
+                    'Mahtlactli-omei'
+                ];
+/**Назви днів в трацені Spirit*/
+$Spirit_Nahuatl = [
+                    'Xiuhtecuhtli',
+                    'Tlaltecuhtli',
+                    'Chalchihuitlicue',
+                    'Tonatiuh',
+                    'Tlazolteotl',
+                    'Mictlantecuhtli',
+                    'Centeotl',
+                    'Tlaloc',
+                    'Quetzalcoatl',
+                    'Tezcatlipoca',
+                    'Chalmecatecuhtli',
+                    'Tlahuizcalpantecuhtli',
+                    'Citlalicue'
+                ];
+
+/**Aztec Xiuhpohualli Month Name */
+$Aztec_Xiuhpohualli = [
+                        'Atlcahualo',
+                        'Tlacaxipehualiztli',
+                        'Tozoztontli',
+                        'Hueytozoztli',
+                        'Toxcatl',
+                        'Etzalcualiztli',
+                        'Tecuilhuitontli',
+                        'Hueytecuilhuitl',
+                        'Tlaxochimaco',
+                        'Xocotlhuetzi',
+                        'Ochpaniztli',
+                        'Teotleco',
+                        'Tepeihuitl',
+                        'Quecholli',
+                        'Panquetzaliztli',
+                        'Atemoztli',
+                        'Tititl',
+                        'Izcalli',
+                        'Nemontemi(5 unlucky days)'
+                    ];
+
+//Назви трацен (13-денніх періодів)
+$name_Trecena13 = [
+                    'Cipactli (Crocodile)-',
+                    'Ocelotl (Jaguar)',
+                    'Mazatl (Deer)',
+                    'Xochitl (Flower)',
+                    'Acatl (Reed)',
+                    'Miquiztli (Death)',
+                    'Quiahuitl (Rain)',
+                    'Malinalli (Grass)',
+                    'Coatl (Serpent)',
+                    'Tecpatl (Flint)',
+                    'Ozomatli (Monkey)',
+                    'Cuetzpalin (Lizard)',
+                    'Ollin (Movement)',
+                    'Itzcuintli (Dog)',
+                    'Calli (House)',
+                    'Cozcacuauhtli (Vulture)',
+                    'Atl (Water)',
+                    'Ehecatl (Wind)',
+                    'Cuauhtli (Eagle)',
+                    'Tochtli (Rabbit)'
+                ];
+//Cardinal point
+$Cardinal_point = [
+                    'East',
+                    'North',
+                    'West',
+                    'South',
+                    'East',
+                    'North',
+                    'West',
+                    'South',
+                    'East',
+                    'North',
+                    'West',
+                    'South',
+                    'East',
+                    'North',
+                    'West',
+                    'South',
+                    'East',
+                    'North',
+                    'West',
+                    'South'
+                ];
+
+ $yearNameAztec = [
+                    'Calli',
+                    'Tochtli',
+                    'Acatl',
+                    'Tecpatl'
+                  ];          
+
+$lord_noschi = [
+    'Tlaloc',
+    'Xiuhtecuhtli',
+    'Itztli',
+    'Piltzintecuhtli',
+    'Centeotl',
+    'Mictlantecuhtli',
+    'Chalchiuhtlicue',
+    'Tlazolteotl',
+    'Tepeyollotl'
+];

@@ -73,10 +73,25 @@ if (!empty($_GET['day']) && !empty($_GET['month']) && !empty($_GET['year'])) {
     /** Цолькин  T1 = (M + 19) % 20   T2 = (M + 3) % 13 + 1   */
     $T1 = ($MayaDays + 19) % 20;
     $T2 = ($MayaDays + 3) % 13 + 1;
-    // $T3 = ($MayaDays) % 13;
-    // dd($T3);
-    // echo $T3;
-    // Расчет Trecena
+
+    /** */
+    $T5 = ($MayaDays + 19) % 20;
+    $T6 = ($MayaDays + 20) % 18 + 1;
+    // echo '<br>Назви місяців сонячного року: ' . $T5;
+    // echo '<br>Назви місяців сонячного року: ' . $T6;
+    
+    //Назви місяців сонячного року
+    $Aztec_mouth = $Aztec_Xiuhpohualli[$T5-1];
+    echo '<br>Назви місяців сонячного року: ' . $Aztec_mouth;
+    
+    // // Расчет Назви місяців сонячного року
+    // $T3 = ($MayaDays + 19) % 19 + 1;
+    // echo '<br>Назви місяців сонячного року: ' . $T3;
+    // //Назви місяців сонячного року
+    // $Aztec_mouth = $Aztec_Xiuhpohualli[$T3-1];
+
+    
+
    
     
     /**name Day solkin
@@ -91,13 +106,27 @@ if (!empty($_GET['day']) && !empty($_GET['month']) && !empty($_GET['year'])) {
     
     $NameAztec = $Aztec_name[$T1];
     echo '<br>name Day Aztec: ' . $NameAztec;
+
+    //Назви днів в релігійному календарі SpritName
+    $SpritName = $Spirit_name[$T1];
+
+    //Назви днів в трацені
+    $NahuatlName = $Name_Nahuatl[$T2-1];
+    //Назви днів в трацені
+    $NahuatlNameSpirit = $Spirit_Nahuatl[$T2-1];
    
     // echo '<br>номер дня Day Aztec: '.($T2);
     // echo '<br>';
     /**
      * name month haab
      */
-    list($H1, $H2) = custom_divmod(($MayaDays + 348) % 365, 20);
+    // list($H1, $H2) = custom_divmod(($MayaDays + 348) % 365, 20);
+    /**для месяцев 365 ацтеки */
+    list($H1, $H2) = custom_divmod(($MayaDays+441) % 365, 20);
+    $Aztec_mouth365 = $Aztec_Xiuhpohualli[$H1-1];
+    dd($Aztec_mouth365);
+    dd($H1);
+    dd($H2);
     $NameHaab = $keyNameHaab[$H1];
     echo '<br>name month haab: ' . $NameHaab;
     echo '<br>number month haab: ' . $H2;
@@ -107,8 +136,10 @@ if (!empty($_GET['day']) && !empty($_GET['month']) && !empty($_GET['year'])) {
 
     // вычислить владыку ночи
 
-    $G = ($MayaDays + 8) % 9 + 1;
+    $G = ($MayaDays+4) % 9;
+    $lord = $lord_noschi[$G];
     echo '<br>number владыку ночи: ' . $G;
+    echo '<br>name владыку ночи: ' . $lord_noschi[$G];
     // dd($G);
 
     /**подключение таблицы 
