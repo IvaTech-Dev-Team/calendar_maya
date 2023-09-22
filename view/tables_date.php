@@ -53,15 +53,6 @@
         <p><?php echo $CurrentMayaDays;?></p>
     </div>
     
-    <div class="daybox">
-        <h2>Trecena:</h2>
-        <p>13-day period</p>
-        <p>
-            <img class="num" src="#" alt=""/>
-            <img class="sym" src="#" alt=""/>
-        </p>
-        <p><a href="#"></a></p>
-    </div><br/>
     <br/>
     <div class="daybox">
         <h2>Lord of the Night:</h2>
@@ -80,6 +71,15 @@
             <img class="sym" src="#" alt=""/>
         </p>
         <p><a href="#"><?php echo $H2+1 ;?></a> - <a href="#"> <?php echo $Aztec_mouth365 ;?> </a> </p>
+    </div>
+    <div class="daybox">
+        <h2>Xihuitl:</h2>
+        <p>solar year</p>
+        <p>
+            <img class="num" src="#" alt=""/>
+            <img class="sym" src="#" alt=""/>
+        </p>
+        <p><a href="#"><?php echo $monthNumber ;?></a> - <a href="#"> <?php echo $Aztec_solar_year ;?> </a> </p>
     </div>
     
 </div>
